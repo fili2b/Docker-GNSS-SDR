@@ -54,7 +54,7 @@ Run:
     
 If you change the name of the docker hub, then replace `docker pull therese2b/gnss:latest` by `docker pull dockerHubName/repositoryName:version`
 
-### Run with access to a folder in the host machine
+## Run with access to a folder in the host machine
 
 Within the scope of our project, we need to use a USB port for the HackRF One and to share, in a volume located on the Raspberry Pi, the output files generated during the GNSS SDR execution. We did that by running the container as:
 
